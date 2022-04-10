@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'Syne-04 Regular';
+  src: url('assets/fonts/Syne-04 Regular.otf') format('opentype');
+}
+
+#wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Syne-04 Regular;
+  background-color: #F2F2F2;
+  color: #332F2E;
+  overflow-y: scroll;
+}
+
+#body::-webkit-scrollbar {
+  display: none;
+}
+
+/*   Header*/
+.header {
+  padding: 10px 16px;
+  color: #F2F2F2;
+}
+
+.headeritem-2 a {
+  position: fixed;
+  top: 25px;
+  right: 20px;
+  padding: 15px;
+}
+
+.header a {
+  position: fixed;
+  top: 25px;
+  padding: 15px;
+}
+
+.header a:hover {
+  color: darkred;
+  transform: scale(1);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky+.content {
+  padding-top: 102px;
+}
+
+/*  navbar*/
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  left: 10px;
+  bottom: 30px;
+  width: 100%;
+  padding: 5px;
+}
+
+/*  Navigation Bottom*/
+a {
+  font-family: Syne-04 Regular;
+  font-size: 20px;
+  text-align: left;
+  color: #332F2E;
+  text-decoration: none;
+  padding: 10px;
+  z-index: 2;
+}
+
+a:hover {
+  color: darkred;
+  transform: scale(1.0);
+}
+
+/*  Body Text*/
+p {
+  font-family: Syne-04 Regular;
+  font-size: 16px;
+  line-height: 22px;
+  color: #332F2E;
+  position: relative;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.headline {
+  text-transform: uppercase;
+}
+
+/* Bodytext Link*/
+.bodytextlink {
+  font-family: Syne-04 Regular;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22px;
+  color: #332F2E;
+  position: relative;
+  text-align: left;
+  padding: 0px;
+}
+
+.bodytextlink:hover {
+  color: darkred;
+}
+
+*/
+
+/*  icon*/
+.icon {
+  margin: auto;
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  position: fixed;
+  right: 22px;
+  top: 35px;
+  z-index: 2;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+-------------------------------------------------------------------------
+
+/* Text Column Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column img {
+  padding: 15px;
+  vertical-align: left;
+  width: 100%;
+}
+
+.app_page1 {
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  #left {
+    position: absolute;
+    top: 65px;
+    bottom: 0;
+    left: 5px;
+    width: 30%;
+    overflow-y: scroll;
+    z-index: -1;
+  }
+
+  /* Hide scrollbar*/
+  #left::-webkit-scrollbar {
+    display: none;
+  }
+
+  #middle {
+    position: absolute;
+    top: 65px;
+    bottom: 0;
+    left: 30%;
+    width: 50%;
+    overflow-y: scroll;
+    z-index: -1;
+  }
+
+  #middle::-webkit-scrollbar {
+    display: none;
+  }
+
+  #right {
+    position: absolute;
+    top: 65px;
+    bottom: 0;
+    right: 5px;
+    overflow-y: scroll;
+    width: 30%;
+    z-index: -1;
+  }
+
+  #right::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+#left {
+  background-color: ;
+  text-align: center;
+  height: 100%;
+}
+
+#middle {
+  background-color: ;
+  text-align: left;
+  height: 100%;
+}
+
+#right {
+  height: 100%;
+  background-color: ;
+  text-align: center;
+}
