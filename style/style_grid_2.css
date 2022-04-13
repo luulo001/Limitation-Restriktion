@@ -211,6 +211,14 @@ a {
   padding: 20px;
 }
 
+#modal-image-2 {
+  width: 50%;
+  float: left;
+  height: auto;
+  max-height: 100%;
+  padding: 20px;
+}
+
 --------------------------------------------------------------------------------
 
 /*  Grid*/
