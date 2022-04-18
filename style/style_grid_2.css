@@ -182,7 +182,6 @@ a {
   border-radius: 10px;
   overflow: auto;
   border: 1px solid #332F2E;
-
 }
 
 .close {
@@ -238,7 +237,9 @@ a {
     "area11 area12 area13 area14 area15"
     "area16 area17 area18 area19 area20"
     "area21 area22 area23 area24 area25"
-    "area26 area27 area28 area29 area30";
+    "area26 area27 area28 area29 area30"
+    "area31 area32 area33 area34 area35"
+    "area36 area37 area38 area39 area40";
 }
 
 .grid-item1 {
@@ -404,6 +405,55 @@ a {
   grid-area: area30;
 }
 
+.grid-item31 {
+  background: ;
+  grid-area: area31;
+}
+
+.grid-item32 {
+  background: ;
+  grid-area: area32;
+}
+
+.grid-item33 {
+  background: ;
+  grid-area: area33;
+}
+
+.grid-item34 {
+  background: ;
+  grid-area: area34;
+}
+
+.grid-item35 {
+  background: ;
+  grid-area: area35;
+}
+
+.grid-item36 {
+  background: ;
+  grid-area: area36;
+}
+
+.grid-item37 {
+  background: ;
+  grid-area: area37;
+}
+
+.grid-item38 {
+  background: ;
+  grid-area: area38;
+}
+
+.grid-item39 {
+  background: ;
+  grid-area: area39;
+}
+
+.grid-item40 {
+  background: ;
+  grid-area: area40;
+}
 /* Tooltip container */
 .tooltip1 {
   position: relative;
