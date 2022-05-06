@@ -42,7 +42,7 @@ body {
 }
 
 .headeritem-2 a:hover {
-  color: darkred;
+  color: #d73e86;
   transform: scale(1);
 }
 
@@ -69,7 +69,7 @@ body {
 }
 
 #active {
-  color: darkred;
+  color: #d73e86;
 }
 
 /*  navbar*/
@@ -96,7 +96,7 @@ a {
 }
 
 a:hover {
-  color: darkred;
+  color: #d73e86;
   transform: scale(1);
 }
 
@@ -133,7 +133,7 @@ p {
 }
 
 .link: hover {
-  color: darkred;
+  color: #d73e86;
 }
 
 .caption {
