@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Syne-04';
+  font-weight: 400;
+  src: url('assets/fonts/Syne-04 Regular.otf') format('otf'), url('ssets/fonts/Syne-04 Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Syne-04';
+  font-weight: 500;
+  src: url('assets/fonts/Syne-04 Medium.otf') format('otf'), url('ssets/fonts/Syne-04 Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Syne-04';
+  font-weight: 700;
+  src: url('assets/fonts/Syne-04 Bold.otf') format('otf'), url('ssets/fonts/Syne 04-Bold.woff2') format('woff');
+}
+
+
+#wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: scroll;
+  background-color: black;
+}
+
+#body::-webkit-scrollbar {
+  display: none;
+}
+#title{
+  font-family: Syne-04;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-top: 15%;
+  margin-bottom: 20%;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 220px;
+  line-height: 160px;
+letter-spacing: -12px;
+}
+#container1 {
+  font-family: Syne-04 Regular;
+  margin-left: 0px;
+  margin-top: 15%;
+  margin-bottom: 20%;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 280px;
+letter-spacing: -12px;
+}
+
+/*  Body Text*/
+p {
+  height: 100%;
+  width: 100%;
+  background-color: #F9D3E6;
+  font-family: Syne-04 Regular;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  color: #000000;
+  text-align: left;
+  padding: 50px;
+  padding-bottom: 30%;
+}
+
+#container2 {
+  font-family: Syne-04 Regular;
+  margin-left: 0px;
+  margin-top: 15%;
+  margin-bottom: 45%;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+#container3 {
+  font-family: Syne-04 Regular;
+  margin-left: 0px;
+  margin-top: 15%;
+  margin-bottom: 22%;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 240px;
+  letter-spacing: -12px;
+}
